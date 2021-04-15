@@ -9,7 +9,7 @@
 }
 
 .icones{
-    width: 4em;
+    width: 1.5em;
 }
 
 .conteiner{
@@ -23,4 +23,41 @@
 body{
     width: 100vw;
     height: 100vh;
+}
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 0;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer ul li{ /*margem para os itens não ficarem colados*/
+    margin-right: 10px;
+    list-style: none;
+}
+
+footer ul li:last-child{
+    margin-right: 0px; /*remoção da margem do último item*/
+}
+
+footer ul li a{ /*cor do link*/
+    color: blue;
+    font-size: 2rem;
+}
+
+footer p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
